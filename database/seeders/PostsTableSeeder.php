@@ -26,7 +26,7 @@ class PostsTableSeeder extends Seeder
                     'body' => $faker->paragraph,
                     'likes' => 0,
                     'user_id' => $faker->randomDigitNotNull(),
-                    'username' => $faker->sentence
+
                 ]);
             }
         }
